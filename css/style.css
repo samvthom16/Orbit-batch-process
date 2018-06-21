@@ -1,0 +1,21 @@
+[data-behaviour~=orbit-batch]{
+	border: #eee solid 1px;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+[data-behaviour~=orbit-batch] .orbit-progress-container{ border: #333 solid 1px; }
+
+[data-behaviour~=orbit-batch] .orbit-progress{
+	height: 30px;
+	background: #555;
+	width: 0%;
+}
+[data-behaviour~=orbit-batch] button, [data-behaviour~=orbit-batch] .result{
+	margin-top: 20px;
+}
+[data-behaviour~=orbit-batch] .result{ font-weight: bold; }
+[data-behaviour~=orbit-batch] .logs-container{
+	border-top: #eee solid 1px;
+	margin-top: 20px;
+}
